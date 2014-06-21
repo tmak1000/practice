@@ -8,6 +8,6 @@ int main(){
     for(int col = 0;col < 4 - abs(4-row);col++){
       cout<<"#";
     }
+      cout<<"\n";
   }
-  cout<<"\n";
 }
