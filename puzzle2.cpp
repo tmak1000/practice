@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+  cout<<"Enter a encryption before decoding(ex 18,12312,...) :";
   char outputCharacter;
   enum modeType {UPPERCASE,LOWERCASE,PUNCTUATION};
   modeType mode = UPPERCASE;
