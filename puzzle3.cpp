@@ -10,15 +10,12 @@ int main(){
 	  cout<<" ";
 	}
       }
+      for(int i=0;i<2;i++){
       for(int col = 0;col<4-row;col++){
       
       cout<<"#";
       }
-      for(int col = 0;col<4-row;col++){
-
-	cout<<"#";
       }
-
       cout<<"\n";
     }
 
